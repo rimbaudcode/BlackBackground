@@ -90,4 +90,3 @@ private extension RCWindowController {
   }
 
 }
-
