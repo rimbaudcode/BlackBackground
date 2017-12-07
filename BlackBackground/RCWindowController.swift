@@ -58,7 +58,7 @@ private extension RCWindowController {
     window?.backgroundColor = NSColor.black
     window?.isOpaque = false
     window?.hasShadow = false
-    window?.styleMask = NSBorderlessWindowMask // hide titlebar
+    window?.styleMask = NSWindowStyleMask.borderless // hide titlebar
 
     // scale window to fit the screen size
     window?.setFrame(screenFrame, display: true, animate: true)
